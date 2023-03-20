@@ -4,15 +4,15 @@
 #### Edital dos Temas e Premiações: link
 
 ```
-Nome da equipe:
-Nome dos integrantes:
-Grants aplicados:
+Nome da equipe: Teste
+Nome dos integrantes: Teste
+Grants aplicados: Teste
 ```
 
 ```
-Nome do projeto:
-Pitch:
-Descrição do produto:
-Dificuldades:
-Visão de futuro:
+Nome do projeto: Teste
+Pitch: Teste
+Descrição do produto: Teste
+Dificuldades: Teste
+Visão de futuro: Teste
 ```
