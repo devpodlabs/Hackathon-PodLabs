@@ -11,10 +11,17 @@ Grants aplicados:
 
 ```
 Nome do projeto: Web3DevMarketplace
+
 Pitch:
-Web3DevMarketplace é um smart contract que permite a criação e gerenciamento de atividades de desenvolvimento em uma plataforma descentralizada. Com o uso de tokens ERC721, os líderes podem criar novas atividades com recompensas em criptomoedas, e os membros podem se candidatar a essas atividades, realizá-las e receber as recompensas. Além disso, os líderes podem aprovar ou rejeitar as atividades concluídas pelos membros, garantindo a qualidade e a confiabilidade do trabalho. Com transparência e segurança fornecidas pela blockchain, Web3DevMarketplace é uma solução inovadora e eficiente para a coordenação de equipes de desenvolvimento remoto.
+Você tem uma ideia de desenvolvimento, mas não sabe como colocá-la em prática? Ou talvez você seja um desenvolvedor procurando por novos projetos interessantes para trabalhar? O Web3DevMarketplace é a solução para você!
+
+Nosso produto é uma plataforma descentralizada que permite a criação e gerenciamento de atividades de desenvolvimento, tudo isso em um ambiente seguro e transparente fornecido pela blockchain. Com o uso de tokens ERC721, os líderes podem criar atividades com recompensas em criptomoedas e os membros podem se candidatar a elas. Após a conclusão das atividades, os líderes podem aprovar ou rejeitar o trabalho, garantindo a qualidade e a confiabilidade do trabalho realizado.
+
+O Web3DevMarketplace é uma maneira inovadora de conectar líderes e desenvolvedores, criando uma comunidade de profissionais de desenvolvimento talentosos e experientes. Junte-se a nós e comece a construir projetos incríveis hoje mesmo!
+
 Descrição do produto:
-O contrato inteligente "Web3DevMarketplace" é um contrato ERC-721 que permite a criação, atribuição, conclusão e aprovação de atividades para membros de uma equipe. O contrato é gerenciado por líderes que criam atividades, enquanto os membros podem atribuir e concluir essas atividades. As atividades criadas têm uma recompensa associada, que é retirada do saldo do contrato quando a atividade é criada e mantida em um saldo bloqueado até que a atividade seja concluída e aprovada pelos líderes. Quando a atividade é aprovada, a recompensa é transferida para o membro que concluiu a atividade.
+Web3DevMarketplace é um produto que permite a criação e gerenciamento de atividades de desenvolvimento em uma plataforma descentralizada. Com o uso de tokens ERC721, os líderes podem criar novas atividades com recompensas em criptomoedas, e os membros podem se candidatar a essas atividades, realizá-las e receber as recompensas. Além disso, os líderes podem aprovar ou rejeitar as atividades concluídas pelos membros, garantindo a qualidade e a confiabilidade do trabalho. Com transparência e segurança fornecidas pela blockchain.
+
 Como testar/compilar o produto:
 Faça o deploy do smart contract usando o seguinte comando:
 npx hardhat run scripts/deploy.js --network sepolia
@@ -30,10 +37,12 @@ c. Altere a ABI na pasta utils/Contract.json.
 Na pasta do frontend, execute o comando "npm install" em seguinda npm start".
 
 Observação: se quiser testar com alguns usuários no fluxo de aprovação, recomendamos acessar https://sepolia.etherscan.io/ e interagir com o contrato por lá, pois isso ainda não está implementado no nosso front-end.
+
 Dificuldades:
 Como se trata do meu primeiro projeto web3, tudo foi um desafio.
 Tenho pouca experiencia com react e com solidity, gastei muito tempo entendo como fazer as coisas e fazendo funcionar, cada nova implementação era um desafio novo.
 Tendo em vista a minha experiência e o tempo que tive para desenvolver isso estou feliz com o resultado. 
+
 Visão de futuro:
 Minha visão para o futuro inclui a adição de novas funcionalidades ao smart contract e a modularização do código para torná-lo mais flexível e escalável. Também estou planejando implementar um novo layout no frontend e aprimorar a estrutura do projeto como um todo.
 
